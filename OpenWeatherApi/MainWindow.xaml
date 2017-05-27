@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OpenWeatherApi"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="367.417" Width="236">
+    <StackPanel>
+        <Button Content="Get data" Click="Button_Click"/>
+        <TextBox Name="inputBox" Text="{Binding inputText}"/>
+        <TextBlock Name="outputBox" Text="{Binding OutputText}" Height="293"/>
+    </StackPanel>
 </Window>

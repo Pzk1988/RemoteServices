@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeatherApi", "OpenWeatherApi\OpenWeatherApi.csproj", "{447E2FA0-26F6-43AC-BEBD-903522DBE916}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoRecognition", "PhotoRecognition\PhotoRecognition.csproj", "{7CD2F56A-1278-4258-A343-C1B6DC93C77A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{447E2FA0-26F6-43AC-BEBD-903522DBE916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{447E2FA0-26F6-43AC-BEBD-903522DBE916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{447E2FA0-26F6-43AC-BEBD-903522DBE916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD2F56A-1278-4258-A343-C1B6DC93C77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD2F56A-1278-4258-A343-C1B6DC93C77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD2F56A-1278-4258-A343-C1B6DC93C77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD2F56A-1278-4258-A343-C1B6DC93C77A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,22 @@
+﻿<Window x:Class="PhotoRecognition.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhotoRecognition"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="525">
+    <StackPanel>
+        <Button Click="Button_Click" Content="Click me"/>
+        <ComboBox Name="combo">
+            <ComboBoxItem>Landmark</ComboBoxItem>
+            <ComboBoxItem>Celebrities</ComboBoxItem>
+        </ComboBox>
+        <TextBox Text="{Binding Query}"/>
+        <ScrollViewer Height="150" HorizontalScrollBarVisibility="Auto">
+            <TextBlock Text="{Binding QueryResult}"/>
+        </ScrollViewer>
+
+        <Image Source="{Binding ImageSource}" Height="325"/>
+    </StackPanel>
+</Window>
